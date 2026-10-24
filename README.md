@@ -1,11 +1,16 @@
-<div align="center">
+# ANTCPU Marketing Hub
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A single-page command hub inside the ANTCPU system that brings all marketing operations together: the rhythm, surfaces inventory, staged approval flow, active campaigns and flywheels, doctrine, proof/metrics, community circle, and the future customer pipeline.
 
-  <h1>Built with AI Studio</h2>
+## Build Method
+This application is built iteratively in small, disciplined batches under **FOUNDRY** rules:
+- **Batch 1:** Header & Operating Status Line + Row 1 (The Rhythm & The Approval Flow)
+- **Batch 2:** Row 2 (Surfaces Inventory & Campaigns / Flywheel)
+- **Batch 3:** Row 3 (Doctrine Baked In & The Proof)
+- **Batch 4:** Row 4 (The People / Circle & The Customers Room Pipeline)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Source of Truth
+The canonical specifications and operational memories governing this repository are documented in [`BRIEF.md`](./BRIEF.md).
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Privacy & Estate Notice
+This repository is **private** to the ANTCPU estate and its authorized operators.
