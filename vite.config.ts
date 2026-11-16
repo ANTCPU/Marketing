@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages project path — assets must resolve under /Marketing/
+    base: '/Marketing/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
