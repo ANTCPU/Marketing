@@ -34,7 +34,7 @@ const getClockIconBg = (type: DailyClockItem['iconType']) => {
 
 export const RhythmSection: React.FC<RhythmSectionProps> = ({ data }) => {
   return (
-    <div className="bg-[#0e131d] border border-slate-800 rounded-2xl p-5 shadow-lg flex flex-col justify-between">
+    <div className="bg-[#232f47] border border-slate-800 rounded-2xl p-7 shadow-lg flex flex-col justify-between">
       <div>
         {/* Header */}
         <div className="flex items-center justify-between pb-3.5 mb-4 border-b border-slate-800/90">

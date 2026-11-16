@@ -102,34 +102,34 @@ export interface HubContent {
 export const hubData: HubContent = {
   header: {
     appName: "ANTCPU Marketing Hub",
-    version: "v1.1",
-    statusBadge: "BATCH 1 ACTIVE",
+    version: "v1.2",
+    statusBadge: "LIVE — BUILT & DEPLOYED",
     tagline: "The rhythm is the beats — the hub is the marching band",
-    currentDateText: "Friday, Oct 23, 2026",
+    currentDateText: "Sunday, Nov 15, 2026",
     liveBeat: {
       label: "Today's Live Beat:",
       items: [
         {
-          name: "Mr Ben Live",
-          time: "11:00 AM ET",
+          name: "Pathway page — live",
+          time: "antcpu.github.io/antcputestpilot",
           highlightClass: "text-amber-400"
         },
         {
-          name: "World Series Game 1",
-          time: "8:00 PM ET",
+          name: "Navigation island landed",
+          time: "Both repos",
           highlightClass: "text-cyan-400"
         }
       ]
     }
   },
   operatingStatus: {
-    title: "Live Session Status · Oct 23, 2026",
-    summary: "October Cohort closed yesterday",
-    boldCohortText: "33 challengers ≈ 1/3 of arena's 95 ads",
+    title: "Live Session Status · Nov 15, 2026",
+    summary: "Cohort 4 in its final stretch — December is the last monthly cohort, and its last week is the biggest one ever",
+    boldCohortText: "46 challengers in the system · arena at 4,620 points and climbing",
     cohortApplyUrl: "antcpu.io/apply",
     tags: [
-      "Venue: Foundry Mode (Bounded)",
-      "Target: Export to GitHub"
+      "Venue: The Village (GitHub)",
+      "2027: 52 Weekly Cohorts"
     ]
   },
   rhythm: {
@@ -143,43 +143,42 @@ export const hubData: HubContent = {
         pace: "Heavy",
         paceColor: "amber",
         title: "Big Posting Days",
-        description: "11 AM welcome engine, full surface broadcast, conversation driver."
+        description: "Full surface broadcast, conversation driver — Mondays carry the Same-Day Window."
       },
       {
         days: "Tue + Thu",
         pace: "Light",
         paceColor: "sky",
         title: "Targeted Waves",
-        description: "Agent layer amplification, sports rotation & focused series."
+        description: "Agent layer amplification, sports rotation & focused series. Gary's check-in rides Tuesday Block 2."
       },
       {
-        days: "Fri (Today)",
+        days: "Fri",
         pace: "Decisions",
         paceColor: "emerald",
         title: "Decisions & Review",
-        description: "Week analysis, arena pace audit, Sunday reset prep.",
-        isToday: true
+        description: "Week analysis, arena pace audit, Sunday reset prep."
       }
     ],
     dailyClockTriggers: [
       {
         iconType: "am",
         label: "Morning Post Round",
-        time: "Early AM",
+        time: "7:00 AM",
         timeColor: "text-amber-400",
         description: "Fire-and-go from night-before approvals across all pages simultaneously."
       },
       {
         iconType: "circle",
         label: "Circle Trigger 1",
-        time: "~7:30 AM",
+        time: "~7:52 AM",
         timeColor: "text-indigo-400",
         description: "Elevate the circle: support allies, highlight active members, prime engagement."
       },
       {
         iconType: "reply",
         label: "Trigger 2: Reply Flood",
-        time: "~3:30 PM",
+        time: "~3:52 PM",
         timeColor: "text-emerald-400",
         description: "Reply to every genuine comment. Flood the timeliness with conversation."
       },
@@ -204,97 +203,100 @@ export const hubData: HubContent = {
     ruleOfLaw: "Rule of Law: Prepped day before → Approved night before → Explicit green light.",
     gateStatus: "Safety Gate: LOCKED",
     queueHeader: "Today's Staged Queue & Approval Status",
-    registeredCountText: "4 Items Registered",
+    registeredCountText: "3 Items Registered",
     stagedDrafts: [
       {
-        id: "draft-mrben",
-        title: "Mr Ben Facebook Live Stream",
-        badge: "Beat 4: Day-of",
-        badgeType: "dayof",
-        details: "Live drumbeat broadcast · 11:00 AM ET · Surface: ABU Marketplace page (Joseph joins from his personal page)",
-        statusText: "GREEN LIGHT FIRED",
-        statusType: "fired"
-      },
-      {
-        id: "draft-ws",
-        title: "World Series Game 1 Opener",
-        badge: "Small Ball Big Wins",
-        badgeType: "sports",
-        details: "Evening sports drumbeat · 8:00 PM ET · Surfaces: ANTCPU + Agent layer",
-        statusText: "APPROVED FOR 8 PM",
-        statusType: "approved"
-      },
-      {
-        id: "draft-thankful",
-        title: "Thankful Series: Buyers & MAC Rerun",
-        badge: "Scheduled Oct 28/29",
+        id: "draft-comic",
+        title: "Comic Week — Page One: A Day in the Build",
+        badge: "Thankful Series · Nov 16–22",
         badgeType: "scheduled",
-        details: "Community gratitude post · Staging numbers & copy for night review",
-        statusText: "STAGED (IN DRAFT)",
+        details: "Seven comic pages, one a day · FB / IG / Threads · the teaser Reel is already live",
+        statusText: "READY FOR MONDAY",
+        statusType: "ready"
+      },
+      {
+        id: "draft-window",
+        title: "Same-Day Window #1",
+        badge: "Beat 1: Day-of",
+        badgeType: "dayof",
+        details: "Requests land in the comments · designs ride the 3–5 PM window · posted back before 6 PM · Mon Nov 16",
+        statusText: "STAGED FOR TAP",
         statusType: "staged"
       },
       {
-        id: "draft-cohort",
-        title: "Cohort 3 Arena Wrap + Cohort 4 Call",
+        id: "draft-december",
+        title: "December Cohort — The Final Monthly Run",
         badge: "Flywheel",
         badgeType: "flywheel",
-        details: "33 challengers milestone · Link to antcpu.io/apply · Staged for weekend run",
-        statusText: "READY FOR TAP",
-        statusType: "ready"
+        details: "46 challengers in the system · the last week is the biggest challenge ever · 52 weekly cohorts follow in 2027",
+        statusText: "BUILDING",
+        statusType: "staged"
       }
     ],
     safetySealText: "Publishing mandate: Joseph's own tap fires each staged item.",
     tapRuleBadge: "1 Tap = 1 Action"
   },
   roadmap: {
-    title: "Subsequent Batches in the Build Plan (Staged for review)",
-    architectureTag: "8 Sections Architecture",
+    title: "The Build From Here (Staged for Review)",
+    architectureTag: "Village Architecture",
     batches: [
       {
-        batchId: "BATCH 2 (NEXT)",
-        label: "BATCH 2 (NEXT)",
-        title: "Row 2: Reach & Initiatives",
+        batchId: "THE VILLAGE",
+        label: "THE VILLAGE",
+        title: "Repos, Pathway & The Island",
         accentColor: "text-amber-400",
         sections: [
           {
-            name: "2. Surfaces Inventory:",
-            desc: "4 lanes (Map of Pi, ANTCPU Core, Agent Layer, ABU Marketplace)"
+            name: "Pathway page:",
+            desc: "Live — four lanes routing every contact into its own funnel"
           },
           {
-            name: "4. Campaigns & Flywheel:",
-            desc: "Profile Elevation, Cohort Flywheel, Drumbeats"
+            name: "Navigation island:",
+            desc: "One nav playbook across the pathway and this hub"
+          },
+          {
+            name: "The tower repos:",
+            desc: "antcputestpilot · Marketing · ads — built in the open, PRs and peer review"
           }
         ]
       },
       {
-        batchId: "BATCH 3",
-        label: "BATCH 3",
-        title: "Row 3: Principles & Proof",
+        batchId: "THE MACHINE",
+        label: "THE MACHINE",
+        title: "Ops, Health & Automations",
         accentColor: "text-sky-400",
         sections: [
           {
-            name: "5. Doctrine Baked In:",
-            desc: "Tone hierarchy, numbers rule, comment signatures"
+            name: "Ops page:",
+            desc: "Rendered from the cohort YAML — one data source, no empty pages"
           },
           {
-            name: "6. The Proof:",
-            desc: "Post log, Monday 11 AM welcome engine, Arena score (>100 pts)"
+            name: "Health pages:",
+            desc: "health.html + health.json in both repos — the codes stay stable"
+          },
+          {
+            name: "Automations:",
+            desc: "Build & deploy on merge, YAML checks on PRs, weekly rollover, nightly health"
           }
         ]
       },
       {
-        batchId: "BATCH 4",
-        label: "BATCH 4",
-        title: "Row 4: Allies & Pipeline",
+        batchId: "2027",
+        label: "2027",
+        title: "52 Weekly Cohorts",
         accentColor: "text-emerald-400",
         sections: [
           {
-            name: "7. The People:",
-            desc: "The 11 Circle members + Amanda's support rotation"
+            name: "Day one:",
+            desc: "Team mates chosen first — devs and marketers, collaboration from the start"
           },
           {
-            name: "8. The Pipeline:",
-            desc: "Clean reserved Customers Room (prospects retained by project)"
+            name: "Week two:",
+            desc: "Ready-for-work check — the captains surface fast"
+          },
+          {
+            name: "Before that:",
+            desc: "December's final week — the biggest challenge ever"
           }
         ]
       }

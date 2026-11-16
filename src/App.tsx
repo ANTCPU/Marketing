@@ -9,7 +9,7 @@ import { NavIsland } from './components/NavIsland';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#07090e] text-slate-100 font-sans selection:bg-amber-500/30 selection:text-amber-200 pt-[84px]">
+    <div className="min-h-screen bg-[#1a2233] text-slate-100 font-sans selection:bg-amber-500/30 selection:text-amber-200 pt-[84px]">
       {/* Navigation Island — house nav playbook */}
       <NavIsland />
 
@@ -17,12 +17,12 @@ export default function App() {
       <Header data={hubData.header} />
 
       {/* Main Container */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         {/* Operating Context Bar */}
         <OperatingStatusBar data={hubData.operatingStatus} />
 
         {/* ROW 1: THE RHYTHM & THE APPROVAL FLOW */}
-        <section className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <RhythmSection data={hubData.rhythm} />
           <ApprovalSection data={hubData.approval} />
         </section>
