@@ -5,10 +5,14 @@ import { OperatingStatusBar } from './components/OperatingStatusBar';
 import { RhythmSection } from './components/RhythmSection';
 import { ApprovalSection } from './components/ApprovalSection';
 import { RoadmapPreview } from './components/RoadmapPreview';
+import { NavIsland } from './components/NavIsland';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#07090e] text-slate-100 font-sans selection:bg-amber-500/30 selection:text-amber-200">
+    <div className="min-h-screen bg-[#07090e] text-slate-100 font-sans selection:bg-amber-500/30 selection:text-amber-200 pt-[84px]">
+      {/* Navigation Island — house nav playbook */}
+      <NavIsland />
+
       {/* Top Header & Live Drumbeat Banner */}
       <Header data={hubData.header} />
 
